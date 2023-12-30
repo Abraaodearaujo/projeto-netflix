@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+    background-image: url(../../img/fundo-inicial.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+#caixa {
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.827);
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#caixa > h1 {
+    color: white;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.793);
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+#email {
+    border: 0px;
+    padding: 0px 10px;
+    border-radius: 3px;
+    background-color: rgba(128, 128, 128, 0.466);
+    width: 300px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    color: white;
+}
+
+#senha {
+    border: 0px;
+    padding: 0px 10px;
+    border-radius: 3px;
+    background-color: rgba(128, 128, 128, 0.466);
+    width: 300px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+}
+
+#entrar {
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    width: 320px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#entrar > p {
+    position: relative;
+    top: 30%;
+}
+
+#lembrar-text {
+    display: inline;
+    color: rgba(255, 255, 255, 0.792);
+      
+}
+
+#lembrar {
+    display: inline;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#novo {
+    color: gray;
+    margin: 80px 0px 10px 40px;
+}
+
+#robo {
+    color: gray;
+    margin-left: 40px;
+}

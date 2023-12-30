@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+#caixa{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+#p-amarelo {
+    margin-left: 150px;
+    text-align: center;
+    color: white;
+}
+
+#p-amarelo > img {
+    width: 100px;
+}
+
+#p-azul {
+    text-align: center;
+    color: white;
+}
+
+#p-azul > img {
+    width: 100px;
+}
+
+#p-verde {
+    text-align: center;
+    color: white;
+}
+
+#p-verde  > img {
+    width: 100px;
+}
+
+#ad-perfil {
+    margin-right: 150px;
+    text-align: center;
+    color: white;
+}
+
+#ad-perfil > img {
+    width: 100px;
+}

@@ -1,0 +1,94 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../img/fundo-inicial.jpg);
+    background-size: cover;
+    box-shadow: -2px 3px 400px 200px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: -2px 3px 400px 200px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: -2px 3px 400px 200px rgba(0,0,0,0.75) inset;
+    background-position: center center;
+}
+nav {
+    width: 100vw;
+    height: 30px;
+    background-image: linear-gradient(to bottom , black, transparent);
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px;
+}
+#logo-netflix {
+    width: 170px;
+    height: 60px;
+}
+
+#botao-entrar{
+ margin-left: 49%;
+}
+
+#botao-entrar > a > button {
+    width: 70px;
+    height: 35px;
+    color: white;
+    background-color: red;
+    border: 0px solid ;
+    border-radius: 3px;
+}
+#primeira-parte{
+    width: 100vw;
+    display: block;
+}
+#primeira-parte > div {
+    margin: 100px auto;
+    text-align: center;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 80%;
+}
+#primeira-parte > div > h1 {
+    font-size: 60px;
+}
+#email {
+    color: white;
+    margin-top: 10px;
+    width: 400px;
+    height: 50px;
+    padding: 0 10px;
+    background-color: rgba(0, 0, 0, 0.704);
+    border-radius: 3px;
+    border: 0.3px solid rgba(255, 255, 255, 0.702);
+}
+#vamos-la {
+    cursor: pointer;
+    display: inline-block;
+    background-color: red;
+    padding: 17px;
+    border-radius: 3px;
+
+}
+
+#email-valido{
+    background-color: red;
+    width: 423px;
+    height: 20px;
+    padding-top: 4px;
+    position: relative;
+    left: 24.3%;
+    border-radius: 0px 0px 6px 6px;
+    display: none;
+}
+
+#email-vazio{
+    background-color: red;
+    width: 423px;
+    height: 20px;
+    padding-top: 4px;
+    position: relative;
+    left: 24.3%;
+    border-radius: 0px 0px 6px 6px;
+    display: none;
+}
