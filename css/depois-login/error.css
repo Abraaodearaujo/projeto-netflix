@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 100vw;
+    height:100vh;
+    box-shadow: 10px 10px 313px 200px rgba(0,0,0,0.64) inset;
+    -webkit-box-shadow: 10px 10px 313px 200px rgba(0,0,0,0.64) inset;
+    -moz-box-shadow: 10px 10px 313px 200px rgba(0,0,0,0.64) inset;
+    background-image: url(../../img/fundo-inicial.jpg);
+    background-color: rgb(0, 0, 0);
+}
+
+div{
+    font-size: 20px;
+    padding: 40px;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
