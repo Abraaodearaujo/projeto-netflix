@@ -81,3 +81,15 @@ a{
     border-radius: 3px;
     cursor: pointer;
 }
+
+#filmes{
+    display: flex;
+    position: absolute;
+    top: 80%;
+}
+
+#filmes img{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}

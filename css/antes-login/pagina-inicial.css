@@ -18,51 +18,73 @@ nav {
     height: 30px;
     background-image: linear-gradient(to bottom , black, transparent);
     display: flex;
-    justify-content: space-around;
-    padding: 40px 0px;
+    justify-content: space-between;
+    padding: 15px 0px;
 }
+
 #logo-netflix {
-    width: 170px;
+    margin-left: 30px;
+    width: 150px;
     height: 60px;
 }
 
 #botao-entrar{
- margin-left: 49%;
+    margin-right: 30px;
 }
 
 #botao-entrar > a > button {
-    width: 70px;
+    width: 90px;
     height: 35px;
     color: white;
     background-color: red;
     border: 0px solid ;
     border-radius: 3px;
 }
-#primeira-parte{
-    width: 100vw;
-    display: block;
+#textos{
+    position: relative;
+    margin: 16%;
+    display: flex;
+    justify-content: center;
 }
-#primeira-parte > div {
-    margin: 100px auto;
+#textos > div {
     text-align: center;
     color: white;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    width: 80%;
 }
-#primeira-parte > div > h1 {
-    font-size: 60px;
+#textos > div > h1 {
+    font-size: 50px;
+    width: 100vw;
+    margin-bottom: 20px;
 }
+
+#textos > div > h2 {
+    margin-bottom: 25px;
+    font-weight: lighter;
+    font-size: 25px;
+    width: 100vw;
+}
+
+#textos > div > p {
+    margin-bottom: 20px;
+    font-weight: lighter;
+    font-size: 20px;
+    width: 100vw;
+}
+
 #email {
     color: white;
     margin-top: 10px;
     width: 400px;
-    height: 50px;
+    height: 55px;
     padding: 0 10px;
-    background-color: rgba(0, 0, 0, 0.704);
+    background-color: rgba(0, 0, 0, 0.324);
     border-radius: 3px;
     border: 0.3px solid rgba(255, 255, 255, 0.702);
 }
+
 #vamos-la {
+    width: 150px;
+    height: 55;
     cursor: pointer;
     display: inline-block;
     background-color: red;
@@ -72,13 +94,6 @@ nav {
 }
 
 #email-valido{
-    background-color: red;
-    width: 423px;
-    height: 20px;
-    padding-top: 4px;
-    position: relative;
-    left: 24.3%;
-    border-radius: 0px 0px 6px 6px;
     display: none;
 }
 
