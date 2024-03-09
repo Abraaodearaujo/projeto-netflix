@@ -7,7 +7,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url(../../../img/fundo-inicial.jpg);
+    background-image: url(../../img/fundo-inicial.jpg);
     background-size: cover;
     box-shadow: -2px 3px 400px 200px rgba(0,0,0,0.75) inset;
     -webkit-box-shadow: -2px 3px 400px 200px rgba(0,0,0,0.75) inset;
