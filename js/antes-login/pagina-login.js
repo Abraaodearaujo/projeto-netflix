@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Verificar se as credenciais correspondem
         if (email === "teste@gmail.com" && senha === "102030") {
-            window.location.href = "../../html/depois-login/quem-esta.html"; 
+            window.location.href = "../../html/depois-login/quem-esta.html";
         } else {
             alert("Email ou senha inválidos. Por favor, tente novamente.");
         }
